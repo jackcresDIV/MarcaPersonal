@@ -1,0 +1,95 @@
+/*Generales*/
+
+	body { 
+		font-family: Allerta; 
+		margin: 0;
+	}
+
+	.centrar {
+		width: 800px;
+		margin: auto;
+		
+	}
+
+/*Header*/
+
+	figure {
+		display: inline-block;
+	}
+
+	nav {
+		font-size: 24px;
+		display: inline-block;
+	}
+
+	nav li {
+		display: inline-block;
+		margin-left: 30px;
+	}
+
+/*Main*/
+
+	/*Section Portada*/
+		
+		#portada {
+			background-image: url("../images/background.png");
+			color: white;
+		}
+
+		h1 {
+			font-size: 70px;
+			font-family: Montserrat;
+			margin-top: 100px;
+		}
+
+		#portada h3 {
+			font-size: 24px;
+			margin: 15px 25px;
+		}
+
+		button {
+			margin-bottom: 100px;
+		}
+		
+	/*Section Guitarras*/
+
+		#guitarras {
+			color: #2C2C2C;
+			margin-top: 20px;
+		}
+
+		h2 {
+			font-size: 35px;
+			font-family: Montserrat;
+			margin-bottom: 25px;
+		}
+
+		.guitarras {
+			/*overflow: hidden;*/
+			margin: 20px;
+			border: 1px solid #2C2C2C;
+			padding: 10px;
+		}
+
+		.derecha {
+			float: right;
+			position: relative;
+			top: -127px;
+		}
+
+		.izquierda {
+			float: left;
+			position: relative;
+			top: 80px;
+		}
+
+		.descripcion {
+			display: inline-block;
+			padding: 10px;
+		}
+
+		.titulo-g {
+			font-size: 50px;
+			margin: 20px 0px;
+		}
+

@@ -1,0 +1,282 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"im",
+				"IMG_0022"
+			],
+			[
+				"cle",
+				"clean_tweets"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"fonts",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "g c",
+		"selected_items":
+		[
+			[
+				"g c",
+				"Git: Commit"
+			],
+			[
+				"git: add",
+				"Git: Add Current File"
+			],
+			[
+				"git: ",
+				"Git: Status"
+			],
+			[
+				"LiveReload: ",
+				"LiveReload: Help"
+			],
+			[
+				"liveReload",
+				"LiveReload: Self test"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/enriq/Documents/JackCres/Proyectos/WebDev/jackcres.cf"
+	],
+	"file_history":
+	[
+		"/C/Users/enriq/Desktop/PlatziGitExercise/.git/config",
+		"/C/Users/enriq/Documents/Eidan/Assets/Scene/Main.unity",
+		"/C/Users/enriq/.ssh/id_rsa.pub",
+		"/C/Users/enriq/Desktop/azar.py",
+		"/C/Users/enriq/Documents/gitignore_global.txt",
+		"/C/Users/enriq/Desktop/platzigit-master/README.md",
+		"/C/Users/enriq/Desktop/platzigit-master/.git/description",
+		"/C/Users/enriq/Desktop/platzigit-master/.git/HEAD",
+		"/C/Users/enriq/Desktop/platzigit-master/.git/config",
+		"/C/Users/enriq/Desktop/platzigit-master/.git/index",
+		"/C/Users/enriq/Desktop/platzigit-master/Avanze.txt",
+		"/C/Users/enriq/Desktop/platzigit-master/Version final.txt",
+		"/C/Users/enriq/Desktop/platzigit-master/G1.txt",
+		"/C/Users/enriq/Desktop/platzigit-master/F1.txt",
+		"/C/Users/enriq/Desktop/platzigit-master/F1",
+		"/C/Users/enriq/Documents/git/platzigit-master/README.md",
+		"/C/Users/enriq/Documents/git/platzigit-master/assets/images/IMG_0022.JPG",
+		"/C/Users/enriq/Documents/git/platzigit-master/meta/commits.txt",
+		"/C/Users/enriq/Documents/Omar+/Proyectos/Platzi/Clases/InferenciaTwitter/clean.py",
+		"/C/Users/enriq/Downloads/Compressed/Labolatory Scape/Labolatory Scape/LaboratoryScape.py",
+		"/C/Users/enriq/Documents/Omar+/Proyectos/Platzi/Clases/InferenciaTwitter/cleaner.py",
+		"/C/Users/enriq/Documents/Omar+/Proyectos/Platzi/Clases/InferenciaTwitter/stream_listener.py",
+		"/C/Users/enriq/Desktop/prueba.js",
+		"/C/Users/enriq/AppData/Roaming/Sublime Text 3/Packages/User/js.sublime-build",
+		"/C/Users/enriq/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"//FRANMELY-PC/Users/Omar/Documents/WebDev/jackcres.cf/invie/css/invie.css",
+		"//FRANMELY-PC/Users/Omar/Documents/WebDev/jackcres.cf/invie/index.html",
+		"/C/Users/enriq/Desktop/suma.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"HEAD",
+			"    <!--",
+			"\n",
+			"Normalize",
+			"self",
+			"status"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/User/js.sublime-build",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 134.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
