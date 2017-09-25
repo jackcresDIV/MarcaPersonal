@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-size"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
 				"im",
 				"IMG_0022"
 			],
@@ -56,9 +64,17 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "g c",
+		"last_filter": "pci",
 		"selected_items":
 		[
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"git: stat",
+				"Git: Status"
+			],
 			[
 				"g c",
 				"Git: Commit"
@@ -108,7 +124,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/enriq/Documents/JackCres/Proyectos/WebDev/jackcres.cf"
+		"/C/Users/enriq/Documents/JackCres/Proyectos/WebDev/Development/jackcres.cf"
 	],
 	"file_history":
 	[
@@ -157,6 +173,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"=\"",
 			"HEAD",
 			"    <!--",
 			"\n",
@@ -177,6 +194,12 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\enriq\\Documents\\JackCres\\Proyectos\\WebDev\\Development\\jackcres.cf"
+		}
+	],
 	"groups":
 	[
 		{
@@ -233,7 +256,7 @@
 		"height": 100.0
 	},
 	"pinned_build_system": "Packages/User/js.sublime-build",
-	"project": "project.sublime-project",
+	"project": "",
 	"replace":
 	{
 		"height": 42.0
