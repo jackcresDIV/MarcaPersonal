@@ -1,0 +1,46 @@
+/* Generales */
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.centrar {
+		width: 1000px;
+		margin: auto;
+	}
+
+/* HEADER */
+	header {
+		background: #303841;
+		color: white;
+		overflow: hidden;
+		margin-bottom: 20px; 
+	}
+
+	header img {
+		width: 150px;
+		float: left;
+	}
+
+	header button {
+		padding: 10px;
+		position: absolute;
+		right: 25px;
+		top: 10px;
+	}
+
+	nav ul {
+		text-align: right;
+	}
+
+	nav li {
+		display: inline-block;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	nav a {
+		text-decoration: none;
+		color: white;
+		font-size: 24px;
+	}
