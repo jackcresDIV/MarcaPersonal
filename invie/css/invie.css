@@ -8,17 +8,36 @@
 	.centrar {
 		width: 800px;
 		margin: auto;
+		position: relative;
+	}
+
+	.background {
+		background-image: url("../images/background.png");
+		background-size: cover;
+	}
+
+	.cbalink {
+		display: none;
 	}
 
 /*Header*/
 
+	header {
+		position: relative;
+		margin-top: 0px;
+	}
+
 	figure {
 		display: inline-block;
+		margin: 30px 0;
 	}
 
 	nav {
 		font-size: 24px;
 		display: inline-block;
+		position: absolute;
+		right: 0;
+		top: 20px;
 	}
 
 	nav li {
@@ -26,28 +45,52 @@
 		margin-left: 30px;
 	}
 
+	nav li:before {
+		content: "∘ ";
+		font-size: 1.3em;
+		color: white;
+	}
+
+	nav a {
+		text-decoration: none;
+		color: white; 
+	}
+
 /*Main*/
 
 	/*Section Portada*/
 
 		#portada {
-			background-image: url("../images/background.png");
 			color: white;
+			height: 550px;
 		}
 
 		h1 {
 			font-size: 70px;
 			font-family: Montserrat;
-			margin-top: 100px;
+			margin-top: 70px;
+			margin-bottom: 0;
+		}
+
+		h1 span {
+			text-decoration: underline;
 		}
 
 		#portada h3 {
 			font-size: 24px;
-			margin: 15px 25px;
+			margin: 0 0 20px 25px;
 		}
 
-		button {
-			margin-bottom: 100px;
+		.boton {
+			border-radius: 8px;
+			border: none;
+			padding: 7px 15px;
+			cursor: pointer;
+			color: white;
+			font-size: 18px;
+			background: linear-gradient(to left, #FE344E, #FF7950);
+			text-decoration: none;
+			margin-top: 12px;
 		}
 
 	/*Section Guitarras*/
@@ -55,6 +98,7 @@
 		#guitarras {
 			color: #2C2C2C;
 			margin-top: 20px;
+			margin-bottom: 100px;
 		}
 
 		h2 {
@@ -64,18 +108,32 @@
 		}
 
 		.guitarras {
-			margin: 20px;
+			margin: 20px 20px 40px 20px;
 			border: 1px solid #2C2C2C;
 			padding: 10px;
 			position: relative;
+			border-radius: 10px;
 		}
 
+		.guitarras ol {
+			padding: 0;
+		}
 
+		.descripcion-a {
+			display: inline-block;
+			padding: 10px 30px;
+		}
+
+		.descripcion-b {
+			display: inline-block;
+			padding: 10px;
+			margin-left: 30px;
+		}
 
 		.derecha {
 			float: right;
 			position: absolute;
-			top: -120px;
+			bottom: 0;
 			right: 0px;
 		}
 
@@ -85,12 +143,103 @@
 			top: -10px;
 		}
 
-		.descripcion {
-			display: inline-block;
-			padding: 10px;
-		}
-
 		.titulo-g {
 			font-size: 50px;
 			margin: 20px 0px;
 		}
+
+/*Footer*/
+
+	footer {
+		background: #213B47;
+		padding: 40px;
+		padding-top: 52px;
+	}
+
+	footer .centrar {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.contacto {
+		width: 310px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+
+	.contacto img {
+		display: block;
+	}
+
+	.contacto strong {
+		display: block;
+	}
+
+	.contacto a {
+		color: white;
+		text-decoration: none;
+		margin: 10px 10px 10px 0;
+		position: relative;
+		bottom: 40px;
+	}
+
+	/*Form*/
+		form {
+			display: flex;
+			width: 400px;
+			color: white;
+		}
+
+		input:focus, textarea:focus {
+			outline: 0;
+			background: lightgray;
+		}
+
+		form label, .sexo, .intereses {
+			margin-bottom: 12px;
+		}
+
+		.col1, .col2 {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.col1 {
+			margin-right: 15px;
+		}
+
+		.col2 {
+			align-items: flex-start;
+		}
+
+		.intereses label {
+			font-size: 12px;
+		}
+
+		.sexo {
+			margin-top: 12px;
+		}
+
+/* Pagina Precios */
+
+	table {
+		width: 100%;
+		margin: 50px 0;
+	}
+
+	th {
+		background: #273b47;
+		color: white;
+		padding: 10px;
+		text-align: left;
+	}
+
+	td {
+		padding: 20px;
+	}
+
+	table, th, td {
+		border: 1px solid #273b47;
+		border-collapse: collapse;
+	}
