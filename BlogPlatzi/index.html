@@ -13,10 +13,15 @@
 
 		<nav class="centrar">								<!-- Menu de navegacion -->
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Cursos</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">FAQ</a></li>
+				<div><li><a href="#">Cursos</a></li></div>
+				<p>|</p>
+				<div class="seleccionado"><li><a href="#">Blog</a></li></div>
+				<p>|</p>
+				<div><li><a href="#">FAQ</a></li></div>
+				<p>|</p>
+				<div><li><a href="#">Horarios</a></li></div>
+				<p>|</p>
+				<div><li><a href="#">Live</a></li></div>
 			</ul>
 		</nav>
 
@@ -27,16 +32,18 @@
 		<div class="centrar">
 			<form class="buscador"> 	<!-- buscador -->
 				<input type="text" placeholder="Buscar...">
-				<input type="submit"> <!-- https://cdn4.iconfinder.com/data/icons/marketing-32/512/Search-512.png -->
+				<button><img src="https://cdn4.iconfinder.com/data/icons/marketing-32/512/Search-512.png" alt="Buscar"></button>
 			</form>
 
 			<article>	
 				<div class="WidgetLanding">		<!-- widget informacion -->
 					<h2>La magia de la musica</h2>		<!-- titulo -->
 					<hr>								<!-- hr -->
-					<img src="" alt="foto autor">		<!-- foto de autor -->
-					<p class="fecha">Septiembre 28 2017</p>			<!-- fecha -->
-					<p class="nombre">Omar Crespo</p>					<!-- nombre del autor -->
+					<img src="http://static.notinerd.com/wp-content/uploads/2014/04/715.jpg" alt="foto autor">		<!-- foto de autor -->
+					<div>
+						<p class="fecha">Septiembre 28 2017</p>			<!-- fecha -->
+						<p class="nombre">Omar Crespo</p>					<!-- nombre del autor -->						
+					</div>
 				</div>
 			</article>
 		</div>
