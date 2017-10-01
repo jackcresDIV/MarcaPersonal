@@ -279,7 +279,11 @@
 
 		#portada { text-align: center; }
 
-		header img { margin-bottom: 10px; }
+		#portada h3 {
+			margin-left: 0;
+		}
+
+		header img { margin-bottom: 20px; }
 	/* PORTADA */
 
 	/* FOOTER */
@@ -315,11 +319,19 @@
 	nav li {
 		display: block;
 		margin: 0;
-		padding: 8px 0;
-		border-bottom: 1px solid red;
+		padding: 10px 0;
+		border-bottom: 1px solid white;
 	}
 
 	nav li:before { display: none; }
 
-	nav li:first-child { border-top: 1px solid red; }
+	nav li:first-child { border-top: 1px solid white; }
+
+	h1 {
+		font-size: 30px;
+	}
+
+	#portada h3 {
+		font-size: 16px;
+	}
 }
