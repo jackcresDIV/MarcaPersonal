@@ -1,12 +1,18 @@
 /*Generales*/
 
+	* {
+		margin:  0px;
+		padding: 0px;
+	}
+
 	body { 
 		font-family: Allerta; 
 		margin: 0;
 	}
 
 	.centrar {
-		width: 800px;
+		max-width: 800px;
+		width: auto;
 		margin: auto;
 		position: relative;
 	}
@@ -24,20 +30,16 @@
 
 	header {
 		position: relative;
-		margin-top: 0px;
+		padding-top: 20px;
 	}
 
-	figure {
-		display: inline-block;
-		margin: 30px 0;
-	}
+	figure img { display: inline-block; }
 
 	nav {
 		font-size: 24px;
-		display: inline-block;
 		position: absolute;
 		right: 0;
-		top: 20px;
+		top: 40px;
 	}
 
 	nav li {
@@ -63,6 +65,7 @@
 		#portada {
 			color: white;
 			height: 550px;
+			padding: 0px 20px;
 		}
 
 		h1 {
@@ -72,11 +75,9 @@
 			margin-bottom: 0;
 		}
 
-		h1 span {
-			text-decoration: underline;
-		}
+		h1 span { text-decoration: underline; }
 
-		#portada h3 {
+		.slogan {
 			font-size: 24px;
 			margin: 0 0 20px 25px;
 		}
@@ -97,14 +98,13 @@
 
 		#guitarras {
 			color: #2C2C2C;
-			margin-top: 20px;
 			margin-bottom: 100px;
 		}
 
 		h2 {
 			font-size: 35px;
 			font-family: Montserrat;
-			margin-bottom: 25px;
+			margin: 25px;
 		}
 
 		.guitarras {
@@ -115,9 +115,7 @@
 			border-radius: 10px;
 		}
 
-		.guitarras ol {
-			padding: 0;
-		}
+		.guitarras ol { padding: 0; }
 
 		.descripcion-a {
 			display: inline-block;
@@ -152,7 +150,7 @@
 
 	footer {
 		background: #213B47;
-		padding: 40px;
+		padding: 10px;
 		padding-top: 52px;
 	}
 
@@ -162,32 +160,26 @@
 	}
 
 	.contacto {
-		width: 310px;
+		max-width: 310px;
 		display: flex;
 		flex-wrap: wrap;
 		align-items: flex-start;
 	}
 
-	.contacto img {
-		display: block;
-	}
+	.contacto img { display: block; }
 
-	.contacto strong {
-		display: block;
-	}
+	.contacto strong { display: block; }
 
 	.contacto a {
 		color: white;
 		text-decoration: none;
-		margin: 10px 10px 10px 0;
-		position: relative;
-		bottom: 40px;
+		margin-left: 10px;
 	}
 
 	/*Form*/
 		form {
 			display: flex;
-			width: 400px;
+			max-width: 400px;
 			color: white;
 		}
 
@@ -196,30 +188,23 @@
 			background: lightgray;
 		}
 
-		form label, .sexo, .intereses {
-			margin-bottom: 12px;
-		}
+		form label, .sexo, .intereses { margin-bottom: 12px; }
 
 		.col1, .col2 {
 			display: flex;
 			flex-direction: column;
 		}
 
-		.col1 {
-			margin-right: 15px;
-		}
+		.col1 { margin-right: 15px; }
 
-		.col2 {
-			align-items: flex-start;
-		}
+		.col2 { align-items: flex-start; }
 
 		.intereses label {
 			font-size: 12px;
+			display: inline-block;
 		}
 
-		.sexo {
-			margin-top: 12px;
-		}
+		.sexo { margin-top: 12px; }
 
 /* Pagina Precios */
 
@@ -235,11 +220,106 @@
 		text-align: left;
 	}
 
-	td {
-		padding: 20px;
-	}
+	td { padding: 20px; }
 
 	table, th, td {
 		border: 1px solid #273b47;
 		border-collapse: collapse;
 	}
+
+@media screen and (max-width: 800px) {
+
+	/* PORTADA */
+		h1 {
+			font-size: 45px;
+			margin-top: 30px;
+		}
+
+		.slogan { font-size: 18px; }
+
+		#portada { 
+			height: auto;
+			margin: 0;
+		}
+
+		#portada .boton {
+			display: inline-block;
+			margin-bottom: 50px;
+		}
+	/* PORTADA */
+
+	/* GUITARRAS */
+		#guitarras {
+			text-align: center;
+			margin: 0;
+		}
+
+		.derecha, .izquierda {
+			float: none;
+			position: static;
+			width: 50%;
+		}
+
+		#guitarras ol { list-style: none; }
+
+		.descripcion-b, .descripcion-a {
+			padding: 0;
+			margin: 0;
+			display: block;
+		}
+
+		.titulo-g { margin: 0 0 10px 0; }
+	/* GUITARRAS */
+		
+@media screen and (max-width: 650px) {
+	/* PORTADA */
+		nav { position: static; }
+
+		nav li:first-child{ margin: 0; }
+
+		#portada { text-align: center; }
+
+		header img { margin-bottom: 10px; }
+	/* PORTADA */
+
+	/* FOOTER */
+		footer { padding: 10px; }
+
+		footer .centrar { display: block; }
+		
+		.contacto {
+			flex-wrap: wrap;
+			align-items: unset;
+			text-align: center;
+			margin: auto;
+		}
+
+		.contacto img { margin: 20px auto; }
+
+		.contacto a {
+			margin: auto;
+			padding: 10px;
+		}
+
+		form {
+			display: block;
+			margin: 20px auto;
+			text-align: center;
+		}
+
+		.col2 { align-items: normal; }
+	/* FOOTER */
+}
+
+@media screen and (max-width: 480px) {
+	nav li {
+		display: block;
+		margin: 0;
+		padding: 8px 0;
+		border-bottom: 1px solid red;
+	}
+
+	nav li:before { display: none; }
+
+	nav li:first-child { border-top: 1px solid red; }
+}
