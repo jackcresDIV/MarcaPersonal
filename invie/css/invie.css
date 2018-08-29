@@ -206,27 +206,6 @@
 
 		.sexo { margin-top: 12px; }
 
-/* Pagina Precios */
-
-	table {
-		width: 100%;
-		margin: 50px 0;
-	}
-
-	th {
-		background: #273b47;
-		color: white;
-		padding: 10px;
-		text-align: left;
-	}
-
-	td { padding: 20px; }
-
-	table, th, td {
-		border: 1px solid #273b47;
-		border-collapse: collapse;
-	}
-
 @media screen and (max-width: 800px) {
 
 	/* PORTADA */
@@ -269,6 +248,7 @@
 
 		.titulo-g { margin: 0 0 10px 0; }
 	/* GUITARRAS */
+}
 		
 @media screen and (max-width: 650px) {
 	/* PORTADA */
@@ -348,7 +328,6 @@
 		.guitarras li {
 			font-size: 14px;
 		}
-
 
 	/* GUITARRAS */
 }
